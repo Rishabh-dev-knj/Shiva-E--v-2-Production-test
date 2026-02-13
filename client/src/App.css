@@ -1,0 +1,7 @@
+.app-container {
+  min-height: 100vh;
+  background-color: var(--background);
+  color: #ffffff;
+}
+
+/* Settings styles have been moved to Gallery component */
