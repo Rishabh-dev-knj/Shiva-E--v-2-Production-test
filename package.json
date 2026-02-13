@@ -1,0 +1,14 @@
+{
+    "name": "shiva-enterprises-v2",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "client",
+        "server"
+    ],
+    "scripts": {
+        "client-install": "npm install --prefix client",
+        "client-build": "npm run build --prefix client",
+        "server-install": "npm install --prefix server"
+    }
+}
