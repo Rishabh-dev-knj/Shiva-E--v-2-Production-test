@@ -19,11 +19,11 @@
             "destination": "/server/index.js"
         },
         {
-            "source": "/((?!api).*)/",
-            "destination": "/client/index.html"
+            "source": "/(.*)\\.(js|css|png|jpg|jpeg|gif|svg|ico|webp)$",
+            "destination": "/client/$1.$2"
         },
         {
-            "source": "/((?!api).*)",
+            "source": "/(.*)",
             "destination": "/client/index.html"
         }
     ]
